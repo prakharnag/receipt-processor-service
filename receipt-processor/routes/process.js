@@ -33,6 +33,7 @@ router.post('/process', (req, res) => {
 
     // Validate receipt data
     if (!isValidReceipt(receipt)) {
+        console.log("The receipt is invalid. Please verify input. :", receipt);
         return res.status(400).json({ error: "The receipt is invalid. Please verify input." });
     }
 

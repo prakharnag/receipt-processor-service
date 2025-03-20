@@ -21,7 +21,6 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/prakharnag/receipt-processor-service.git
-cd receipt-processor-api
 ```
 
 ### 2. Build and run the application
