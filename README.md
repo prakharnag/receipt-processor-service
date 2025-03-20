@@ -48,7 +48,6 @@ To run the tests for the Receipt Processor API, use the following command:
 
 ```bash
 Open new terminal.
-cd receipt-processor-service
 docker-compose exec app npm test
 ```
 
