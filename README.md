@@ -28,6 +28,7 @@ git clone https://github.com/prakharnag/receipt-processor-service.git
 You can build and start the application using Docker Compose:
 
 ```bash
+cd receipt-processor-service
 docker-compose up --build
 ```
 
@@ -46,6 +47,7 @@ I have also tested the web service with superTest suite, it runs on port 3001
 To run the tests for the Receipt Processor API, use the following command:
 
 ```bash
+cd receipt-processor-service
 docker-compose exec app npm test
 ```
 
@@ -126,7 +128,7 @@ docker-compose down
 Here is an overview of the project structure:
 
 ```
-/receipt-processor-challenge
+/receipt-processor-service
   ├── README.md
   ├── Dockerfile
   ├── receipt-processor # Source Code
