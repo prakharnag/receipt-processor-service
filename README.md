@@ -47,7 +47,7 @@ I have also tested the web service with superTest suite, it runs on port 3001
 To run the tests for the Receipt Processor API, use the following command:
 
 ```bash
-cd receipt-processor-service
+Open new terminal
 docker-compose exec app npm test
 ```
 
