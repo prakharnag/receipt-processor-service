@@ -1,0 +1,28 @@
+{
+  "name": "receipt-processor-challenge",
+  "version": "1.0.0",
+  "description": "Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided  in the [api.yml](./api.yml) file. We will use the described API to test your solution.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "receipt-processor": "receipt-processor"
+  },
+  "scripts": {
+    "start": "node receipt-processor/app.js",
+    "test": "PORT=3001 jest",
+    "dev": "nodemon receipt-processor/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
