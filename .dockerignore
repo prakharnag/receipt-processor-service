@@ -1,0 +1,28 @@
+# Node modules
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (avoid exposing secrets)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git-related files
+.git
+.gitignore
+
+
+# Docker files (if you want a clean build)
+docker-compose.override.yml

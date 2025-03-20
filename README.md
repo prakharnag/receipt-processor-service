@@ -127,14 +127,15 @@ Here is an overview of the project structure:
 
 ```
 /receipt-processor-challenge
-  ├── StepsToRun.md
   ├── README.md
   ├── Dockerfile
   ├── receipt-processor # Source Code
+      ├── app.js
+      ├── app.test.js         # Test cases for Receipt Processor API
+      ├── routes              # receipt process and points endpoints
   ├── docker-compose.yml
-  ├── app.js
-  ├── app.test.js         # Test cases for Receipt Processor API
   ├── package.json
   ├── .gitignore
+  ├── .dockerignore
   ├── api.yml
 ```
