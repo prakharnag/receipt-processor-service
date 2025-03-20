@@ -129,7 +129,7 @@ docker-compose down
 Here is an overview of the project structure:
 
 ```
-/receipt-processor-challenge
+/receipt-processor-service
   ├── README.md
   ├── Dockerfile
   ├── receipt-processor # Source Code
